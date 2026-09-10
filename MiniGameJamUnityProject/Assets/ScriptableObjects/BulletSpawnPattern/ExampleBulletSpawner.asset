@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6fdb9c6609b3324fb84b294292fb39f, type: 3}
+  m_Name: ExampleBulletSpawner
+  m_EditorClassIdentifier: Assembly-CSharp::BulletSpawnerData
+  BulletBlueprint: {fileID: 11400000, guid: e6b70ba7ef58d924aba89d320adeca6c, type: 2}
+  BulletSpawnPattern:
+    rid: 1421589615800221772
+  SpawnDuration: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 1421589615800221772
+      type: {class: NGonSpawner, ns: , asm: Assembly-CSharp}
+      data:
+        nGon: 5
+        bulletsPerSide: 2
+        PolygonSize: 8
+        RotationType: 0
+        RotationOffset: 0
